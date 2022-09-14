@@ -203,15 +203,15 @@ body {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
+  border-bottom: 0.1rem solid currentColor;
+  padding-bottom: 0.2rem;
   transition: all 0.3s;
 }
 
 .link:hover,
 .link:active {
   color: #cf711f;
-  border-bottom: 1px solid transparent;
+  border-bottom: 0.1rem solid transparent;
 }
 
 strong {
@@ -223,6 +223,12 @@ strong {
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
+/*mobile*/
+.btn-mobile-nav {
+}
+
+.icon-mobile {
+}
 /*************************/
 /* HEADER COMPONENTS*/
 /*************************/
@@ -246,9 +252,10 @@ strong {
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
+
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
@@ -454,7 +461,7 @@ strong {
   text-transform: uppercase;
 
   color: #333;
-  border-radius: 100px;
+  border-radius: 10rem;
   font-weight: 600;
 }
 
@@ -512,6 +519,7 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .icon-list {
