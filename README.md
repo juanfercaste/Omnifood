@@ -1,6 +1,6 @@
 # Omnifood
 
-https://juanfercaste.github.io/Omnifood/
+
 
 Final project from Build Responsive Real-World Websites with HTML and CSS of JONAS SCHMEDTMANN
 
